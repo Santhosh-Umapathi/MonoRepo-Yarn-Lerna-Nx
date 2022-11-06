@@ -2,8 +2,10 @@
   "name": "@rn-module/design",
   "version": "1.0.0",
   "description": "Design Module",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && mkdir dist && cp index.js dist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
