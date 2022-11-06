@@ -4,7 +4,7 @@
   "description": "Design Module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && mkdir dist && cp index.js dist"
+    "build": "rimraf dist && mkdir dist && cp index.js dist && cp -R components dist"
   },
   "keywords": [],
   "author": "",

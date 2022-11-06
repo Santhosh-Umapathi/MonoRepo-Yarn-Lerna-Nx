@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 const Button = ({onPress, title}) => {
   const onPressHandler = () => {
     onPress && onPress();
-    console.log('On Press Handler');
+    console.log('On Press Handler test');
   };
 
   return (
