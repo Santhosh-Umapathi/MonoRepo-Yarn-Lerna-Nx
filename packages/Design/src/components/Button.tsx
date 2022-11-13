@@ -1,10 +1,15 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 
-const Button = ({onPress, title}) => {
+type TProps = {
+  onPress: () => void;
+  title: string;
+};
+
+const Button = ({onPress, title}: TProps) => {
   const onPressHandler = () => {
     onPress && onPress();
-    console.log('On Press Handler test');
+    console.log('On Press Handler');
   };
 
   return (
