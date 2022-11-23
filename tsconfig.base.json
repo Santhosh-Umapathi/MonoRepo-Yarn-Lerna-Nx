@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@@monorepo/mobile-library": ["libs/mobile-library/src/index.ts"],
+      "@@monorepo/web-library": ["libs/web-library/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
