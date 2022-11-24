@@ -48,4 +48,8 @@ npx nx generate @nrwl/react:lib <Web Library Name>
 npx nx generate @nrwl/react-native:lib <Mobile Library Name>
 ```
 
----
+#### TS
+
+```bash
+npx nx generate @nrwl/js:library <Ts Library Name> --importPath @<Monorepo Name>/<Ts Library Name>
+```

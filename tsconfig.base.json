@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@@monorepo/mobile-library": ["libs/mobile-library/src/index.ts"],
-      "@@monorepo/web-library": ["libs/web-library/src/index.ts"]
+      "@@monorepo/web-library": ["libs/web-library/src/index.ts"],
+      "@monorepo/models": ["libs/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
