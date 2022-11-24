@@ -1,22 +1,25 @@
 {
-  "name": "mobile-library",
+  "name": "mobile-ui",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/mobile-library/src",
+  "sourceRoot": "libs/mobile-ui/src",
   "projectType": "library",
   "tags": [],
   "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc"
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/mobile-library/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/mobile-ui/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/mobile-library/jest.config.ts",
+        "jestConfig": "libs/mobile-ui/jest.config.ts",
         "passWithNoTests": true
       }
     }

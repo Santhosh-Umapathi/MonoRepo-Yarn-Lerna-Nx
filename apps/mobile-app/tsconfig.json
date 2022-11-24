@@ -10,7 +10,11 @@
     "composite": true,
     "declaration": true
   },
-  "files": ["../../node_modules/@nrwl/react-native/typings/svg.d.ts"],
+  "files": [
+    "../../node_modules/@nrwl/react-native/typings/svg.d.ts",
+    "../../libs/mobile-ui/src/index.ts",
+    "../../libs/models/src/index.ts"
+  ],
   "include": [],
   "references": [
     {
