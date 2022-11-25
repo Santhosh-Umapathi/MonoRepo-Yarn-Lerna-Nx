@@ -8,7 +8,9 @@
   },
   "devDependencies": {
     "@appymango/cli": "^1.5.2",
-    "lerna": "^6.0.3"
+    "lerna": "^6.0.3",
+    "nx": "15.2.1",
+    "@nrwl/nx-cloud": "latest"
   },
   "jest": {
     "preset": "react-native",
