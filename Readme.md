@@ -1,4 +1,4 @@
-![](https://i.imgur.com/YDNZ5Bp.png)
+![](https://i.imgur.com/RPZlYE2.png)
 
 # Monorepo - Yarn Workspaces, Lerna, Nx
 
