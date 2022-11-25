@@ -1,0 +1,23 @@
+{
+  "name": "@monorepo/components",
+  "version": "1.0.0",
+  "description": "UI Components Module",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc --pretty",
+    "build:w": "yarn clean && tsc -w",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "Santhosh Umapathi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.6"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
