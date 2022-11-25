@@ -2,10 +2,13 @@
   "name": "monorepo",
   "version": "1.0.0",
   "private": true,
-  "scripts": {},
-  "dependencies": {},
+  "scripts": {
+    "graph": "npx nx graph",
+    "build:modules": "npx lerna run build"
+  },
   "devDependencies": {
-    "@appymango/cli": "^1.5.2"
+    "@appymango/cli": "^1.5.2",
+    "lerna": "^6.0.3"
   },
   "jest": {
     "preset": "react-native",

@@ -1,4 +1,4 @@
-declare type Props = {
+type Props = {
     text: string;
 };
 declare const WelcomeScreen: (props: Props) => JSX.Element;
