@@ -3,7 +3,7 @@
   "compilerOptions": {
     "noEmit": false,
     "types": ["node"],
-    "outDir": "dist/",
+    "outDir": "dist",
     "declaration": true,
     "baseUrl": ".",
     "paths": {}
